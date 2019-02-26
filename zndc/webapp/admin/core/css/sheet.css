@@ -1,0 +1,401 @@
+div.sheet-title{
+	position : relative;
+	width : 700px;
+	height : 40px;
+	font-size : 17px;
+	text-align : center;
+	line-height: 40px;
+	border-bottom: solid 1px #000;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+.sheet-title .span-time{
+	position: absolute;
+	left : 530px;
+	top : 20px;
+	font-size : 12px;
+	font-style : italic;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+.sheet-title .span-wd{
+	position: absolute;
+	left : 10px;
+	top : 20px;
+	font-size : 12px;
+	font-style : italic;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+.sheet-title2 th, .sheet-title2 td{
+	height : 26px;
+	line-height : 26px;
+	font-size : 14px;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+.sheet-title2{
+	width : 700px;
+	height : 26px;
+	line-height : 26px;
+	font-size : 14px;
+	margin-top:2px;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+}
+div.sheet-title2 span{
+	display : inline-block;
+	min-width : 80px;
+	margin-left : 30px;
+}
+
+.printDiv{
+	padding : 0 30px;
+}
+
+table.checkDetail {
+	width: 700px;
+	border-collapse: collapse;
+	border-spacing: 1px;
+	border-color:#000;
+	border-left:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 0px;
+	margin: 2px 0 0 0;
+	background-color: #FFF;
+	font-family: "Microsoft YaHei",Arial;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+table.checkDetail tbody th {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	height: 20px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 2px #000;
+	border-top:solid 2px #000;
+	padding: 2px;
+	text-indent: 2px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.checkDetail tbody td {
+	word-break: break-all;
+	text-align: center;
+	padding: 2px;
+	line-height: 20px;
+	height: 20px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+div.sheet-lq{
+	width : 688px;
+	height : 150px;
+	padding : 5px;
+	font-size: 14px;
+	border-left : solid 1px #000;
+	border-right : solid 1px #000;
+	border-bottom : solid 1px #000;
+	margin-bottom: 10px;
+}
+.maxT{top:0;left:85%;width:15%;height:30px;display:inline-block;position:absolute;}
+.minT{top:0;left:85%;width:15%;height:30px;display:inline-block;position:absolute;}
+.pointW0{
+	width : 5px;
+	height : 4px;
+	left : 0px;
+	top : 0px;
+	position : absolute;
+	background : url(../pic/bg.png) no-repeat;
+	background-position : 0px 0px;
+}
+.pointW1{
+	width : 5px;
+	height : 4px;
+	left : 0px;
+	top : 5px;
+	position : absolute;
+	background : url(../pic/bg.png) no-repeat;
+	background-position : 0px -6px;
+}
+.pointW2{
+	width : 5px;
+	height : 4px;
+	left : 0px;
+	top : 15px;
+	position : absolute;
+	background : url(../pic/bg.png) no-repeat;
+	background-position : 0px -12px;
+}
+.pointW3{
+	width : 5px;
+	height : 4px;
+	left : 0px;
+	top : 10px;
+	position : absolute;
+	background : url(../pic/bg.png) no-repeat;
+	background-position : 0px -18px;
+}
+.sheet-title3 {
+	margin-top:10px;
+}
+
+.sheet-title3 td{
+	height : 25px;
+	line-height : 25px;
+	font-size: 12px;
+	padding-right: 10px;
+}
+
+.stereo{
+	margin:0 auto;
+	width:1050px;
+	height:510px;
+	position:relative;
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	background : url(../pic/bgqiang.png) no-repeat;
+}
+
+.stereo span{
+	display:none;
+	background: yellow;
+	width:32px;
+	height:18px;
+	line-height: 18px;
+	text-align: center;
+}
+
+.stereo span.stereo-btn{
+	cursor: pointer;
+	display: inline-block;
+}
+
+.stereo span.stereo-btn:HOVER{
+	background: red;
+	color: #FFF;
+}
+
+div.sheet-house-yuan{
+	width:1100px;
+	margin:0 auto;
+}
+
+div.sheet-house-ping{
+	width:800px;
+	margin:0 auto;
+}
+
+div.sheet-house-yuan div.sheet-title{
+	width : 1000px;
+}
+
+div.sheet-house-yuan .sheet-title .span-time{
+	left : 830px;
+}
+
+div.sheet-house-yuan .sheet-title2{
+	width : 1000px;
+}
+
+div.sheet-house-yuan table.checkDetail {
+	width: 1000px;
+}
+
+div.sheet-house-yuan table.checkDetail td{
+	padding: 1px;
+	line-height: 13px;
+	height: 13px;
+	font-size: 11px;
+}
+
+div.sheet-house-yuan table.checkDetail th {
+	font-size: 12px;
+	line-height: 14px;
+	height: 14px;
+	padding: 1px;
+}
+
+div.sheet-house-yuan div.sheet-lq{
+	width : 988px;
+	height: 150px;
+}
+
+.stereo.type3 span,.stereo.type2 span, .stereo.type4 span{
+	display:none;
+	background: yellow;
+	width:28px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.stereo span.stereo-btn{
+	cursor: pointer;
+	display: inline-block;
+}
+
+.stereo span.stereo-btn:HOVER{
+	background: red;
+	color: #FFF;
+}
+
+.ding.type3, .ding.type2, .ding.type4{
+	z-index:0;
+	width:460px;
+	height:150px;
+	position:absolute;
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+.ding.type3.one, .ding.type2.one, .ding.type4.one{
+	background : url(../pic/ding.png) no-repeat;
+}
+.ding.type3.two, .ding.type2.two, .ding.type4.two{
+	background : url(../pic/ding1.png) no-repeat;
+}
+.ding.type3.three, .ding.type2.three, .ding.type4.three{
+	background : url(../pic/ding2.png) no-repeat;
+}
+.ding.type3.four, .ding.type2.four, .ding.type4.four{
+	background : url(../pic/ding3.png) no-repeat;
+}
+.stereo.type3,.stereo.type2,.stereo.type4{
+	margin:5px auto;
+	width:500px;
+	height:500px;
+	position:relative;
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+	background : url(../pic/bgqiang1.png) no-repeat;
+}
+
+
+table.sheetCheckDetail {
+	width: 700px;
+	border-collapse: collapse;
+	border-spacing: 1px;
+	border-color:#000;
+	border:solid 1px #000;
+	padding: 0px;
+	margin: 2px 0 0 0;
+	background-color: #FFF;
+	font-family: "Microsoft YaHei",Arial;
+	float: left;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+table.sheetCheckDetail tbody th {
+	font-size: 14px;
+	line-height: 18px;
+	text-align: center;
+	height: 18px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 1px;
+	text-indent: 1px;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.sheetCheckDetail tbody td {
+	word-break: break-all;
+	text-align: center;
+	padding: 2px;
+	line-height: 18px;
+	height: 18px;
+	color: #000;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial;
+}
+table.sheetCheckDetail.detail tbody th {
+	font-size: 14px;
+	line-height: 15px;
+	text-align: center;
+	height: 15px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 1px;
+	text-indent: 1px;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.sheetCheckDetail.detail tbody td {
+	word-break: break-all;
+	text-align: center;
+	padding: 2px;
+	line-height: 15px;
+	height: 15px;
+	color: #000;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.sheetCheckDetail.row5layer4 tbody th {
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	height: 20px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 1px;
+	text-indent: 1px;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.sheetCheckDetail.row5layer4 tbody td {
+	word-break: break-all;
+	text-align: center;
+	padding: 2px;
+	line-height: 20px;
+	height: 20px;
+	color: #000;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+
+table.sheetCheckDetail.row7layer4 tbody th {
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	height: 19px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 1px;
+	text-indent: 1px;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.sheetCheckDetail.row7layer4 tbody td {
+	word-break: break-all;
+	text-align: center;
+	padding: 2px;
+	line-height: 19px;
+	height: 19px;
+	color: #000;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial;
+}

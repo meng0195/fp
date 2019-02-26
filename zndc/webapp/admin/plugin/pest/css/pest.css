@@ -1,0 +1,49 @@
+.pest-points input{
+	width:20px;
+	margin-right: 3px;
+}
+
+.paib-tab span.pest-clear{
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 10px;
+	color: blue;
+	float: right;
+}
+
+.paib-tab{
+	width: 100%;
+	padding: 0px;
+	margin: 1px 0 0 0;
+	background: #FFF;
+	font-family: "Microsoft YaHei",Arial,sans-serif,宋体b8b\4f53;
+}
+
+.paib-tab caption {
+	border: solid 1px #a2bac0;
+	text-align: center;
+	line-height: 33px;
+	height: 33px;
+	color:rgb(72,99,251);
+	font-size: 16px;
+	font-weight: BOLD;
+	font-family: "Microsoft YaHei",Arial,sans-serif,宋体b8b\4f53;
+	background: #FFF;
+}
+.paib-tab tr td:first-child{
+	border-left: solid 1px #a2bac0;
+}
+.paib-tab td{
+	border-bottom: solid 1px #a2bac0;
+	border-right: solid 1px #a2bac0;
+	word-break: break-all;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	color: #3D3E39;
+	background-color: #FFFFFF;
+	font-size: 13px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial,sans-serif,宋体b8b\4f53;
+}

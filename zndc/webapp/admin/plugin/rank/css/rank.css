@@ -1,0 +1,341 @@
+/* 电缆排布样式 */
+.point-col{
+	display:block;
+	float:left;
+	background:#f3f7f7;
+	border-left:1px solid #D2D2D2;
+	border-top:1px solid #D2D2D2; 
+	margin:1px;
+	font-family: "Microsoft YaHei",Arial,sans-serif,宋体b8b\4f53;
+}
+.point-col li{
+	display : block;
+	height : 23px;
+}
+.point-col span{
+	display:block;
+	float:left;
+	width:39px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	border-bottom: 1px solid #D2D2D2;
+	border-right: 1px solid #D2D2D2;
+}
+
+.point-title span{
+	font-size: 14px;
+}
+
+table.points td{
+	vertical-align: top;
+}
+
+.points-div{
+	cursor: pointer;
+}
+
+.houseMap{
+	position:relative;
+	width:100%;
+	background:url(../pic/back.jpg);
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+
+.houseMap .houseTest.checking, .checking{
+	background:url(../pic/loading.gif);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color:#000;
+	font-weight: bold;
+}
+
+.houseTest{
+	display: block;
+	position:absolute;
+	width: 40px;
+	height: 40px;
+	/* border: solid 1px #FFF;
+	border-radius: 25px; */
+	line-height: 60px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+}
+
+.green{
+	color:green;
+	/*background: url("../pic/green.png") no-repeat;*/
+}
+.gray{
+	color:gray;
+	/*background: url("../pic/gray.png") no-repeat;*/
+}
+.red{
+	color:red;
+	background: url("../pic/red.png") no-repeat;
+}
+.yellow{
+	color:yellow;
+	/*background: url("../pic/yellow.png") no-repeat;*/
+}
+.blue{
+	color:blue;
+	/*background: url("../pic/blue.png") no-repeat;*/
+}
+.orange{
+	background: orange;
+}
+.houseTest:HOVER{
+	cursor: pointer;
+	text-decoration: none;
+}
+.houseMap .msg{
+	left:0;
+	top:-46px;
+	position: absolute;
+	display: none;
+	height: 25px;
+	width: 220px;
+	line-height: 25px;
+	padding: 5px;
+	background: #FFF;
+	color: #000;
+	border-radius: 10px;
+}
+
+.houseMap a[houseNo='001']{left:44.5%; top:56%;}
+.houseMap a[houseNo='002']{left:36%; top:56.5%;}
+.houseMap a[houseNo='003']{left:29.5%; top:57%;}
+.houseMap a[houseNo='004']{left:25.3%; top:57.1%;}
+.houseMap a[houseNo='005']{left:79%; top:47%;}
+.houseMap a[houseNo='006']{left:84.5%; top:46.5%;}
+.houseMap a[houseNo='007']{left:28.9%; top:61.5%;}
+.houseMap a[houseNo='008']{left:37.5%; top:53.5%;}
+.houseMap a[houseNo='009']{left:47.1%; top:45.5%;}
+.houseMap a[houseNo='010']{left:53.7%; top:40.5%;}
+.houseMap a[houseNo='011']{left:53%; top:54%;}
+.houseMap a[houseNo='012']{left:59.7%; top:48%;}
+.houseMap a[houseNo='013']{left:58.4%; top:61.9%;}
+.houseMap a[houseNo='014']{left:65.2%; top:55%;}
+.houseMap a[houseNo='015']{left:18.7%; top:14.9%;}
+.houseMap a[houseNo='016']{left:14.5%; top:14.8%;}
+.houseMap a[houseNo='017']{left:10.1%; top:14.9%;}
+.houseMap a[houseNo='018']{left:5.9%; top:14.9%;}
+
+.houseMap a[houseNo='019']{left:29.8%; top:79.6%;}
+.houseMap a[houseNo='020']{left:25.1%; top:79.6%;}
+.houseMap a[houseNo='021']{left:20.4%; top:79.6%;}
+.houseMap a[houseNo='022']{left:15.7%; top:79.6%;}
+.houseMap a[houseNo='023']{left:29.8%; top:70.7%;}
+.houseMap a[houseNo='024']{left:25.1%; top:70.7%;}
+.houseMap a[houseNo='025']{left:20.4%; top:70.7%;}
+.houseMap a[houseNo='026']{left:15.7%; top:70.7%;}
+.houseMap a[houseNo='027']{left:29.8%; top:61.3%;}
+.houseMap a[houseNo='028']{left:25.1%; top:61.3%;}
+.houseMap a[houseNo='029']{left:20.4%; top:61.3%;}
+.houseMap a[houseNo='030']{left:15.7%; top:61.3%;}
+.houseMap a[houseNo='031']{left:34.8%; top:70.2%;}
+.houseMap a[houseNo='032']{left:42.1%; top:63.2%;}
+.houseMap a[houseNo='033']{left:40.4%; top:79.2%;}
+.houseMap a[houseNo='034']{left:47.7%; top:71.2%;}
+.houseMap a[houseNo='035']{left:63.8%; top:70.2%;}
+.houseMap a[houseNo='036']{left:71.1%; top:63.2%;}
+.houseMap a[houseNo='037']{left:81.4%; top:52.2%;}
+.houseMap a[houseNo='038']{left:88.7%; top:44.2%;}
+
+.houseMap a[houseNo='039']{left:4.5%; top:30.6%;}
+.houseMap a[houseNo='040']{left:12.8%; top:25.6%;}
+.houseMap a[houseNo='041']{left:25.1%; top:17.6%;}
+.houseMap a[houseNo='042']{left:32.5%; top:12.8%;}
+.houseMap a[houseNo='043']{left:3.8%; top:24.8%;}
+.houseMap a[houseNo='044']{left:11.1%; top:20.8%;}
+.houseMap a[houseNo='045']{left:22.5%; top:13.6%;}
+.houseMap a[houseNo='046']{left:29.8%; top:9.6%;}
+.houseMap a[houseNo='047']{left:42.1%; top:6.6%;}
+.houseMap a[houseNo='048']{left:48.5%; top:3.4%;}
+.houseMap a[houseNo='049']{left:43.8%; top:27.4%;}
+.houseMap a[houseNo='050']{left:49.1%; top:34.4%;}
+
+
+#task-exes-right a{
+	display:inline-block;
+	margin: 10px; 
+	width: 50px;
+	height: 50px;
+	border: solid 1px #FFF;
+	border-radius: 25px;
+	line-height: 50px;
+	color: #FFF;
+	font-weight: bold;
+	text-align: center;
+}
+
+table.mainHouseDetail tbody{
+	background-color: #FFF;
+	width:300px;
+}
+table.mainHouseDetail{
+	border-collapse: none;
+	border-spacing: 1px;
+	padding: 2px;
+	font-family: "Microsoft YaHei",Arial,sans-serif,宋体b8b\4f53;
+	z-index:9999;
+	position:absolute;
+	bottom:35px;
+	left:35px;
+	display:none;
+	background:#8E8E8E;
+	border: solid 1px #000;
+	border-radius: 3px;
+}
+table.mainHouseDetail th{
+	font-weight: bold;
+	background-color: #f3f7f7;
+}
+div.main-weather{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 25px;
+	height: 25px;
+	background: url("../pic/weather.png") no-repeat;
+	z-index: 1;
+}
+div.main-weather-body{
+	position: absolute;
+	top: 5px;
+	right: 35px;
+	display: none;
+	width: 300px;
+	height: 82px;
+	z-index: 1;
+	background: #FFF;
+	border: solid 1px #000;
+	border-radius: 3px;
+}
+div.main-msg{
+	position: absolute;
+	top: 45px;
+	right: 5px;
+	width: 26px;
+	height: 40px;
+	color: #ff8080;
+	z-index: 1;
+	cursor:pointer;
+}
+div.main-msg-pic{
+	background: url("../pic/message.png") no-repeat;
+}
+div.main-msg-pic1{
+	background: url("../pic/message1.png") no-repeat;
+}
+div.main-msg a{
+	display: block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	text-decoration: none;
+}
+div.main-msg-body{
+	position: absolute;
+	top: 5px;
+	right: 35px;
+	display: none;
+	width: 300px;
+	height: 300px;
+	z-index: 1;
+	background: #FFF;
+	border: solid 1px #000;
+	border-radius: 3px;
+}
+div.main-msg-body li{
+	padding-left: 5px;
+	height:30px;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+
+
+/*摄像头排布样式*/
+.cameraDiv{
+	background: url("../pic/back.jpg") no-repeat;
+	background-size:100% 100%;
+	width: 100%;
+}
+
+
+ #camRankMap{
+	position: relative;
+	margin: 0 auto;
+} 
+.camRanking{
+	position: absolute;
+	width: 60px;
+	height: 50px;
+	/*border: dashed #000 1px; */
+}
+.camRanking span{
+	float:left;
+	display:inline-block;
+	line-height: 20px;
+	height:20px;
+	width:60px;
+	color:#fff;
+	font-weight: bold;
+	font-size: 11px;
+}
+.camRanking span.picQiang{
+	width:30px;
+	height:30px;
+	background: url("../pic/camera.png") no-repeat;
+}
+
+.camRanking span.picQiu{
+	width:30px;
+	height:30px;
+	background: url("../pic/camera_qiu.png") no-repeat;
+}
+
+.camRanking span.fenglu{
+	text-align: center;
+}
+
+.cameraQiang{
+	display:block;
+	position:absolute;
+	width: 30px;
+	height: 30px;
+	background:  url("../pic/camera.png") no-repeat;
+}
+
+.cameraQiu{
+	display:block;
+	position:absolute;
+	width: 30px;
+	height: 30px;
+	background:  url("../pic/camera_qiu.png") no-repeat;
+}
+
+.area-select-div{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:43px;
+	border: solid 2px #D2D2D2;
+	background: #f3f7f7;
+	cursor: pointer;
+	z-index:12;
+	display:none;
+}
+
+.area-select-div span{
+	display:block;
+	width:43px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+}

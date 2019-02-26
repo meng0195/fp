@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"    
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"    
+	version="2.0">    
+
+	<description>MapTld Custom Functions</description>   
+	<display-name>JSTL core</display-name> 
+	<tlib-version>1.0</tlib-version>    
+	<short-name>warn</short-name>    
+	<uri>http://www.bjggs.com.cn/jstl/warn</uri>
+
+
+	<function>    
+		<name>get1</name>    
+		<function-class>cn.com.bjggs.basis.util.WarnTld</function-class>    
+		<function-signature>java.lang.String get1(int)</function-signature>  
+		<example>${warn:get1(1)}</example>  
+	</function>
+	
+	<function>    
+		<name>get2</name>
+		<function-class>cn.com.bjggs.basis.util.WarnTld</function-class>    
+		<function-signature>java.lang.String get2(int, int)</function-signature>  
+		<example>${warn:get2(1, 1)}</example>  
+	</function>
+	
+	<function>    
+		<name>getEquipStatus</name>
+		<function-class>cn.com.bjggs.basis.util.WarnTld</function-class>    
+		<function-signature>java.lang.String getEquipStatus(int, byte)</function-signature>  
+		<example>${warn:get2(1, 1)}</example>  
+	</function>
+	
+	<function>    
+		<name>getModel</name>
+		<function-class>cn.com.bjggs.basis.util.WarnTld</function-class>    
+		<function-signature>java.lang.String getModel(int)</function-signature>  
+		<example>${warn:getModel(1)}</example>  
+	</function>
+	
+	<function>    
+		<name>getModelMsg</name>
+		<function-class>cn.com.bjggs.basis.util.WarnTld</function-class>    
+		<function-signature>java.lang.String getModelMsg(boolean, int)</function-signature>  
+		<example>${warn:getModel(true, 1)}</example>  
+	</function>
+	
+	<function>    
+		<name>getOperName</name>
+		<function-class>cn.com.bjggs.basis.util.WarnTld</function-class>    
+		<function-signature>java.lang.String getOperName(int)</function-signature>  
+		<example>${warn:getOperName(1)}</example>  
+	</function>
+	
+	<function>    
+		<name>getFileSize</name>
+		<function-class>cn.com.bjggs.basis.util.WarnTld</function-class>    
+		<function-signature>java.lang.String getFileSize(java.io.File, int)</function-signature>  
+		<example>${warn:getFileSize(file, int)}</example>  
+	</function>
+	
+	<function>    
+		<name>getFileTime</name>
+		<function-class>cn.com.bjggs.basis.util.WarnTld</function-class>    
+		<function-signature>java.lang.String getFileTime(java.io.File)</function-signature>  
+		<example>${warn:getFileTime(file)}</example>  
+	</function>
+	
+</taglib>

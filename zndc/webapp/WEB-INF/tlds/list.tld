@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"    
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"    
+	version="2.0">    
+        
+	<description>ListTld Custom Functions</description>   
+	<display-name>JSTL core</display-name> 
+	<tlib-version>1.0</tlib-version>    
+	<short-name>list</short-name>    
+	<uri>http://www.bjggs.com.cn/jstl/map</uri>
+    
+	<function>    
+		<name>init</name>    
+		<function-class>cn.com.bjggs.core.tlds.ListTld</function-class>    
+		<function-signature>java.util.List init()</function-signature>  
+		<example>${list:init()}</example>  
+	</function> 
+	<function>
+		<name>add</name>    
+		<function-class>cn.com.bjggs.core.tlds.ListTld</function-class>    
+		<function-signature>java.util.List add(java.util.List, java.lang.Object)</function-signature>  
+		<example>${list:add(list, "aaa")}</example>  
+	</function>
+    
+</taglib>

@@ -1,0 +1,10 @@
+#helpDocForm a{
+	display : block;
+	height : 45px;
+	line-height: 45px;
+	font-size : 26px;
+	font-weight : bold;
+	font-style : italic;
+	color : blue;
+	padding-left: 10px;
+}

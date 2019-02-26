@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"    
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"    
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"    
+	version="2.0">    
+        
+	<description>StringTld Custom Functions</description>   
+	<display-name>JSTL core</display-name> 
+	<tlib-version>1.0</tlib-version>    
+	<short-name>str</short-name>    
+	<uri>http://www.bjggs.com.cn/jstl/str</uri>
+    
+	<function>    
+		<name>leftPad</name>    
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>    
+		<function-signature>java.lang.String leftPad(java.lang.String, int, java.lang.String)</function-signature>  
+		<example>${str:leftPad("qwer",8,"a")}</example>  
+	</function>
+	<function>
+		<name>toString</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String toString(java.lang.Object)</function-signature>
+		<example>${str:toString(123)}</example>
+	</function>
+	<function>
+		<name>substringAfterLast</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String substringAfterLast(java.lang.Object, java.lang.String)</function-signature>
+		<example>${str:substringAfterLast("BM_SL", "_")}</example>
+	</function>
+	<function>
+		<name>format</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String format(double, int)</function-signature>
+		<example>${str:format(99999999.0, 8)}</example>
+	</function>
+	<function>
+		<name>cut</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String cut(java.lang.String, int)</function-signature>
+		<example>${str:cut("abcdefg", 4)}</example>
+	</function>
+	<function>
+		<name>richcut</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String richcut(java.lang.String, int)</function-signature>
+		<example>${str:richcut("abcdefg", 4)}</example>
+	</function>
+	<function>
+		<name>contains</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>boolean contains(java.lang.String, java.lang.String, java.lang.Object)</function-signature>
+		<example>${str:contains("1,23,134,34,2", ",", "23")}</example>
+	</function>
+	<function>
+		<name>joinList</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String join(java.util.Collection, java.lang.String)</function-signature>
+		<example>${str:joinList(Collection, ",")}</example>
+	</function>
+	<function>
+		<name>joinEntries</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String join(java.util.Collection, java.lang.String, java.lang.String)</function-signature>
+		<example>${str:joinEntries(Collection, "id", ",")}</example>
+	</function>
+	<function>
+		<name>joinArray</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String join(java.lang.Object[], java.lang.String)</function-signature>
+		<example>${str:joinArray(Object[], ",")}</example>
+	</function>
+	<function>
+		<name>encode</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String encode(java.lang.String)</function-signature>
+		<example>${str:encode("http://www.why-e.com.cn")}</example>
+	</function>
+	<function>
+		<name>decode</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String decode(java.lang.String)</function-signature>
+		<example>${str:decode("http://www.why-e.com.cn")}</example>
+	</function>
+	<function>
+		<name>escape</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String escape(java.lang.String)</function-signature>
+		<example>${str:escape("")}</example>
+	</function>
+	<function>
+		<name>unescape</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String unescape(java.lang.String)</function-signature>
+		<example>${str:unescape("")}</example>
+	</function>
+	<function>
+		<name>escapeSpecial</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String escapeSpecial(java.lang.String)</function-signature>
+		<example>${str:escapeSpecial("")}</example>
+	</function>
+	<function>
+		<name>unescapeSpecial</name>
+		<function-class>cn.com.bjggs.core.tlds.StrTld</function-class>
+		<function-signature>java.lang.String unescapeSpecial(java.lang.String)</function-signature>
+		<example>${str:unescapeSpecial("")}</example>
+	</function>
+	<function>
+		<name>unescapeRich</name>
+		<function-class>cn.com.whye.core.tlds.StringTld</function-class>
+		<function-signature>java.lang.String unescapeRich(java.lang.String)</function-signature>
+		<example>${str:unescapeRich("")}</example>
+	</function>
+    
+</taglib>

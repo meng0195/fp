@@ -1,0 +1,89 @@
+th,td{
+	height : 26px;
+	line-height : 26px;
+	font-size : 14px;
+	font-family: "Microsoft YaHei",Arial;
+}
+table.reportDetail {
+	border-collapse: collapse;
+	border-spacing: 1px;
+	border-color:#000;
+	border-left:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 0px;
+	margin: 2px 0 0 0;
+	background-color: #FFF;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.reportDetail tbody th {
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	height: 24px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 2px;
+	text-indent: 2px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.reportDetail tbody td {
+	word-break: break-all;
+	text-align: center;
+	line-height: 24px;
+	height: 28px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	font-size: 13px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+
+
+table.reportAll {
+	border-collapse: collapse;
+	border-spacing: 1px;
+	border-color:#000;
+	border-left:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 0px;
+	margin: 2px 0 0 0;
+	background-color: #FFF;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.reportAll tbody th {
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	height: 24px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 2px;
+	text-indent: 2px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei",Arial;
+	width: 46px;
+}
+
+table.reportAll tbody td {
+	word-break: break-all;
+	text-align: center;
+	line-height: 24px;
+	height: 28px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	font-size: 13px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial;
+	width: 46px;
+}

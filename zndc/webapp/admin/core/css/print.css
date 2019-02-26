@@ -1,0 +1,326 @@
+#layout, #footer, #splitBar, #splitBarProxy, #alertBackground, #dialogBackground, #background, 
+.comboxop, .shadow, .panelBar{ display:none;}
+#printBox{display:block; font-family: Arial, sans-serif; }
+/*body.transform5{-webkit-transform: scale(0.5); -webkit-transform-origin: 0 0;}*/
+
+/* CSS Table */
+table.list {border-collapse:collapse;width:100%}
+table.list thead tr {background-color: #F0EFF0;}
+table.list th {border: solid 1px #D0D0D0; font-weight:bold; }
+table.list td {border:solid 1px #D0D0D0;white-space:nowrap;}
+
+
+/* Grid */
+.grid table {border-collapse:collapse; width:100%}
+.grid table th { border: solid 1px #D0D0D0; font-weight:bold; }
+.grid table td { border: solid 1px #D0D0D0; white-space:nowrap;}
+.grid .gridTbody td div { display: block; }
+.grid .left { text-align:left;}
+.grid .right { text-align:right;}
+.grid .center { text-align:center;}
+
+.binding{
+	border-bottom: 1px dashed #000;
+	height:30px;
+	margin-bottom: 10px;
+}
+
+div.sheet-title{
+	position : relative;
+	width : 1000px;
+	height : 40px;
+	font-size : 26px;
+	text-align : center;
+	line-height: 40px;
+	border-bottom: solid 1px #000;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+.sheet-title .span-time{
+	padding-bottom : 5px;
+	display : inline-block;
+	height : 24px;
+	line-height : 24px;
+	position: absolute;
+	top : 20px;
+	left : 770px;
+	font-size : 15px;
+	font-style : italic;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+.sheet-title .span-wd{
+	padding-bottom : 5px;
+	display : inline-block;
+	height : 24px;
+	line-height : 24px;
+	position: absolute;
+	top : 20px;
+	left : 10px;
+	font-size : 15px;
+	font-style : italic;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+.sheet-title2{
+	width : 1000px;
+	height : 24px;
+	line-height : 24px;
+	font-size : 17px;
+	margin-top:2px;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+}
+
+.sheet-title2 th, .sheet-title2 td{
+	height : 24px;
+	width:13%;
+	line-height : 24px;
+	font-size : 17px;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+.rucang{
+	font-size:16px;
+	float: left;
+}
+
+.jiance{
+	float: right;
+	font-size: 16px;
+}
+table.sheetCheckDetail {
+	width: 1000px;
+	border-collapse: collapse;
+	border-spacing: 1px;
+	border-color:#000;
+	border:solid 1px #000;
+	padding: 0px;
+	margin: 2px 0 0 0;
+	background-color: #FFF;
+	font-family: "Microsoft YaHei",Arial;
+	float: left;
+}
+
+table.checkDetail {
+	width : 1000px;
+	border-collapse: collapse;
+	border-spacing: 1px;
+	border-color:#000;
+	border-left:solid 1px #000;
+	border-top:solid 1px #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	border:solid 1px #000;
+	padding: 0px;
+	margin: 5px 0 0 0;
+	font-size:18px;
+	line-height:28px;
+	background-color: #FFF;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+
+table.checkDetail tbody th {
+	font-size: 17px;
+	line-height: 22px;
+	text-align: center;
+	height: 22px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 2px #000;
+	border-top:solid 2px #000;
+	padding: 2px;
+	text-indent: 2px;
+	font-weight: bold;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.checkDetail tbody td {
+	word-break: break-all;
+	text-align: center;
+	padding: 2px;
+	line-height: 22px;
+	height: 22px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	font-size: 17px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+.printDiv{
+	padding : 0 20px;
+}
+
+table.sheetCheckDetail tbody th {
+	font-size: 17px;
+	line-height: 22px;
+	text-align: center;
+	height: 22px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 1px;
+	text-indent: 1px;
+	font-family: "Microsoft YaHei",Arial;
+	font-weight: normal;
+}
+
+table.sheetCheckDetail tbody td {
+	word-break: break-all;
+	text-align: center;
+	padding: 2px;
+	line-height: 22px;
+	height: 22px;
+	color: #000;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.sheetCheckDetail.detail tbody th {
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	height: 16px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 1px;
+	text-indent: 1px;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.sheetCheckDetail.detail tbody td {
+	word-break: break-all;
+	text-align: center;
+	padding: 2px;
+	line-height: 16px;
+	height: 16px;
+	color: #000;
+	font-size: 14px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.sheetCheckDetail.row5layer4 tbody th {
+	font-size: 18px;
+	line-height: 33px;
+	text-align: center;
+	height: 33px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 1px;
+	text-indent: 1px;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.sheetCheckDetail.row5layer4 tbody td {
+	word-break: break-all;
+	text-align: center;
+	padding: 2px;
+	line-height: 33px;
+	height: 33px;
+	color: #000;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.sheetCheckDetail.row7layer4 tbody th {
+	font-size: 15px;
+	line-height: 24px;
+	text-align: center;
+	height: 24px;
+	color: #000;
+	border-right:solid 1px #000;
+	border-bottom:solid 1px #000;
+	border-top:solid 1px #000;
+	padding: 1px;
+	text-indent: 1px;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+table.sheetCheckDetail.row7layer4 tbody td {
+	word-break: break-all;
+	text-align: center;
+	padding: 2px;
+	line-height: 22px;
+	height: 22px;
+	color: #000;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: "Microsoft YaHei",Arial;
+}
+
+.maxT{top:0;left:85%;width:15%;height:30px;display:inline-block;position:absolute;}
+.minT{top:0;left:85%;width:15%;height:30px;display:inline-block;position:absolute;}
+
+div.sheet-lq{
+	width : 988px;
+	height : 170px;
+	padding : 5px;
+	font-size: 20px;
+	border-left : solid 1px #000;
+	border-right : solid 1px #000;
+	border-bottom : solid 1px #000;
+}
+
+.sheet-title3 {
+	margin-top:10px;
+}
+
+.sheet-title3 td{
+	height : 25px;
+	line-height : 25px;
+	font-size: 17px;
+}
+
+.pageBreaker{
+	page-break-after: always;
+}
+
+div.print-yuan{
+	width:1550px;
+	margin:0 auto;
+}
+
+div.print-yuan div.sheet-title{
+	width : 1520px;
+}
+
+div.print-yuan .sheet-title .span-time{
+	left : 1280px;
+}
+
+div.print-yuan .sheet-title2{
+	width : 1530px;
+}
+
+div.print-yuan table.checkDetail {
+	width: 1530px;
+}
+
+div.print-yuan table.checkDetail td{
+	padding: 1px;
+	line-height: 20px;
+	height: 20px;
+	font-size: 14px;
+}
+
+div.print-yuan table.checkDetail th {
+	font-size: 16px;
+	line-height: 20px;
+	height: 20px;
+	padding: 1px;
+}
+
+div.print-yuan div.sheet-lq{
+	width : 1518px;
+}

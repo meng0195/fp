@@ -1,0 +1,28 @@
+.btn-t-one-1, .btn-t-one-2, .btn-t-loop-1, .btn-t-loop-2, .btn-t-loop-3{
+	margin-top:5px;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+	display: inline-block;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.btn-t-one-1:HOVER, .btn-t-one-2:HOVER, .btn-t-loop-1:HOVER, .btn-t-loop-2:HOVER, .btn-t-loop-3:HOVER{
+	background: #FFB800;
+	text-decoration: none;
+}
+
+.btn-t-loop-1{
+	margin-left: 95px;
+}
+
+.btn-t-one-1{
+	margin-left: 5px;
+}
+
+.btn-t-loop-3{
+	background: red;
+}
